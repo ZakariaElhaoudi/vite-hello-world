@@ -1,15 +1,16 @@
-<script setup>
-import { ref } from 'vue'
-
-defineProps({
-    msg: String,
-})
-
-const count = ref(0)
+<script>
+export default {
+    name: 'App',
+    data() {
+        return {
+            message: 'Questo è un messaggio di esempio.'
+        }
+    }
+}
 </script>
 
 <template>
-    <h1>{{ msg }}</h1>
+    <h1>{{ message }}</h1>
 </template>
 
 <style scoped>
