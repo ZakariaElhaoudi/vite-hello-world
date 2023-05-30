@@ -1,12 +1,24 @@
-<script setup>
+<script>
 import HelloWorld from './components/HelloWorld.vue'
 import AppTitle from './components/AppTitle.vue'
 import AppHero from './components/AppHero.vue'
+export default {
+  name: 'App',
+  data() {
+    return {
+    }
+  },
+  components: {
+    HelloWorld,
+    AppTitle,
+    AppHero,
+  }
+}
 </script>
 
 <template>
   <AppHero />
-  <AppTitle msg="La mia prima app con Vite!" />
+  <AppTitle />
   <div>
 
     <a href="https://vitejs.dev" target="_blank">

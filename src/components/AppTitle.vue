@@ -3,7 +3,7 @@ export default {
     name: 'App',
     data() {
         return {
-            message: 'Questo è un messaggio di esempio.'
+            message: 'La mia prima app con Vite!'
         }
     }
 }
